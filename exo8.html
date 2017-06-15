@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 8</title>
+  </head>
+  <body>
+
+<h2>Exercice 8</h2>
+
+<p onMouseOver="showText('Bonjour')" onMouseOut="hide()">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+<div id="text"></div>
+
+
+<script>
+function showText(text){
+    document.getElementById("text").innerHTML=text;
+}
+function hide(){
+    document.getElementById("text").innerHTML="";
+}
+</script>
+  </body>
+</html>
